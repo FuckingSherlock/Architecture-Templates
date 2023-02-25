@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Контакты</h1>
+    <form action="/send_message/" method="post">
+        <p>
+            <label for="subject">Тема сообщения:</label>
+            <br>
+            <input type="text" name="subject" id="subject">
+        </p>
+        <p>
+            <label for="message">Сообщение:</label>
+            <br>
+            <textarea name="message" id="message"></textarea>
+        </p>
+        <p>
+            <label for="email">Ваш email:</label>
+            <br>
+            <input type="email" name="email" id="email">
+        </p>
+        <p>
+            <button type="submit">Отправить</button>
+        </p>
+    </form>
+</body>
+
+</html>
